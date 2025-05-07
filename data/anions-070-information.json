@@ -1,0 +1,13 @@
+{
+    "Guest - Central Atom": 294,
+    "Guest - Vertex Atoms": [
+        295,
+        296,
+        297,
+        298
+    ],
+    "HOMO-LUMO Gap": 0.0928204194327673,
+    "Reference": "10.1002/anie.201409895",
+    "Solvent": "Water",
+    "dG": -25.5
+}

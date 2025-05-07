@@ -1,0 +1,15 @@
+{
+    "Guest - Central Atom": 197,
+    "Guest - Vertex Atoms": [
+        194,
+        195,
+        196,
+        198,
+        199,
+        200
+    ],
+    "HOMO-LUMO Gap": 0.132236038732736,
+    "Reference": "-",
+    "Solvent": "Methanol",
+    "dG": -50.0
+}

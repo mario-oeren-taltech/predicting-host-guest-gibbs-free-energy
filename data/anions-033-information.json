@@ -1,0 +1,13 @@
+{
+    "Guest - Central Atom": 185,
+    "Guest - Vertex Atoms": [
+        184,
+        186,
+        187,
+        188
+    ],
+    "HOMO-LUMO Gap": 0.11907037088474261,
+    "Reference": "10.1039/C6SC05058A",
+    "Solvent": "Methanol",
+    "dG": -20.9
+}
