@@ -2,7 +2,7 @@ import json
 import os
 
 from ase.io import read
-from dscribe.descriptors import ACSF
+from dscribe.descriptors import ACSF # , SOAP, LMBTR
 
 from complexes.complex_guest_octahedral_anion import ComplexGuestOctahedralAnion
 from complexes.complex_guest_spherical_anion import ComplexGuestSphericalAnion
@@ -15,6 +15,20 @@ from molecular_structure.molecular_structure import make_list_of_atoms
 element_symbols = ['H', 'B', 'C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Br', 'Sb', 'I', 'Re']
 r_cut = 15.0
 
+# Set up the SOAP descriptor.
+# n_max = 3
+# l_max = 3
+# weighting = {'function': 'pow', 'r0': 0.503, 'c': 1.0, 'd': 1.0, 'm': 2.0}
+#
+# soap = SOAP(
+#     species=element_symbols,
+#     periodic=False,
+#     r_cut=r_cut,
+#     n_max=n_max,
+#     l_max=l_max,
+#     weighting=weighting
+# )
+
 # Set up the ACSF descriptor.
 g2 = [[1, 1], [1, 2], [1, 3]]
 g4 = [[1, 1, 1], [1, 2, 1], [1, 1, -1], [1, 2, -1]]
@@ -22,6 +36,16 @@ g4 = [[1, 1, 1], [1, 2, 1], [1, 1, -1], [1, 2, -1]]
 acsf = ACSF(
     species=element_symbols, r_cut=r_cut, g2_params=g2, g4_params=g4
 )
+
+# Set up the LMBTR descriptor.
+# lmbtr = LMBTR(
+#     species=element_symbols,
+#     geometry={"function": "distance"},
+#     grid={"min": 0, "max": 5, "n": 100, "sigma": 0.1},
+#     weighting={"function": "exp", "scale": 0.5, "threshold": 1e-3},
+#     periodic=False,
+#     normalization="l2",
+# )
 
 # Empty the previous dataset (if it exists).
 with open('anion-data.csv', 'w') as anion_data:
