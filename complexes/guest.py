@@ -1,9 +1,11 @@
+from typing import Optional
+
 class Guest:
     """
     A class that represents the atom indices of the guest anion, cation, or a neutral molecule.
     """
 
-    def __init__(self, central_atom: int | None, vertex_atoms: list[int]):
+    def __init__(self, central_atom: Optional[int], vertex_atoms: list[int]):
         """
         :param central_atom: The central atom index of the guest (None for molecules or asymmetric ions).
         :param vertex_atoms: Atom indices of the guest except the central atom.

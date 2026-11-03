@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 from complexes.guest import Guest
 from constants.relative_permittivity import RelativePermittivity
 from molecular_structure.atom import Atom
+from typing import Optional
 
 
 class ComplexGuestAnion(ABC):
@@ -10,7 +11,7 @@ class ComplexGuestAnion(ABC):
     An abstract base class that represents host-guest complex with an anion as a guest.
     """
 
-    def __init__(self, atoms: list[Atom], guest: Guest, solvent: str, homo_energy: float | None = None):
+    def __init__(self, atoms: list[Atom], guest: Guest, solvent: str, homo_energy: Optional[float] = None):
         """
         :param atoms: A list of Atom objects that represent the structure of the complex.
         :param guest: A class that represents the guest ion or molecule.
