@@ -1,0 +1,31 @@
+{
+    "Guest - Central Atom": 190,
+    "Guest - Vertex Atoms": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+    ],
+    "HOMO-LUMO Gap": 0.11777541414404553,
+    "Reference": "Guo, W.; Fung, B.M.; Christian, S.D. Langmuir 1992, 8, 446.",
+    "Solvent": "Water",
+    "dG": -15.0
+}

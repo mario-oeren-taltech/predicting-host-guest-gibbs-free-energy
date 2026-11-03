@@ -1,0 +1,30 @@
+{
+    "Guest - Central Atom": 147,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+    ],
+    "HOMO-LUMO Gap": 0.16529966907790766,
+    "Reference": "Sanemasa, I.; Akamine, Y. Bull. Chem. Soc. Jpn. 1987, 60, 2059.",
+    "Solvent": "Water",
+    "dG": -15.8
+}

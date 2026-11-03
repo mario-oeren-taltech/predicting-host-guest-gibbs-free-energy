@@ -1,0 +1,14 @@
+{
+    "Guest - Central Atom": 90,
+    "Guest - Vertex Atoms": [
+        85,
+        86,
+        87,
+        88,
+        89
+    ],
+    "HOMO-LUMO Gap": 0.063973648512046,
+    "Reference": "10.1021/jo050662c",
+    "Solvent": "DIMETHYLSULFOXIDE",
+    "dG": -23.5
+}

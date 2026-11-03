@@ -1,0 +1,24 @@
+{
+    "Guest - Central Atom": 162,
+    "Guest - Vertex Atoms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+    ],
+    "HOMO-LUMO Gap": 0.1053292567573445,
+    "Reference": "Siimer, E.; Kurvits, M.; Ko\u00c2\u00a8stner, A. Thermochim. Acta 1987, 116, 249-256.",
+    "Solvent": "Water",
+    "dG": -14.8
+}

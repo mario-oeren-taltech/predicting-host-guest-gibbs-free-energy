@@ -1,0 +1,24 @@
+{
+    "Guest - Central Atom": 141,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+    ],
+    "HOMO-LUMO Gap": 0.09684558530571806,
+    "Reference": "Hirayama, F.; Kurihara, M.; Uekama, K. Int. J. Pharm. 1987, 35, 193-199.",
+    "Solvent": "Water",
+    "dG": -11.3
+}

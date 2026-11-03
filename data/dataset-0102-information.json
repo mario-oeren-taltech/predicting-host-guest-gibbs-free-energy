@@ -1,0 +1,27 @@
+{
+    "Guest - Central Atom": 144,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+    ],
+    "HOMO-LUMO Gap": 0.08596568638693532,
+    "Reference": "Decock G, Landy D, Surpateanu G, Fourmentin S (2008) Study of theretention of aroma components by cyclodextrins by static head-space gas chromatography. J Incl Phenom Macrocycl",
+    "Solvent": "Water",
+    "dG": -13.5
+}

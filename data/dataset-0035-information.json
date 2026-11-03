@@ -1,0 +1,21 @@
+{
+    "Guest - Central Atom": 138,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+    ],
+    "HOMO-LUMO Gap": 0.17103740765869646,
+    "Reference": "Tucker, E. E.; Christian, S. D. J. Am. Chem. Soc. 1984, 106, 1942-1945.",
+    "Solvent": "Water",
+    "dG": -8.6
+}

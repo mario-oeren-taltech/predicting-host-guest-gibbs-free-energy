@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 150,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+    ],
+    "HOMO-LUMO Gap": 0.32890484824914734,
+    "Reference": "Rekharsky, M. V.; Schwarz, F. P.; Tewari, Y. B.; Goldberg, R. N. J. Phys. Chem. 1994, 98, 10282-10288.",
+    "Solvent": "Water",
+    "dG": -16.5
+}

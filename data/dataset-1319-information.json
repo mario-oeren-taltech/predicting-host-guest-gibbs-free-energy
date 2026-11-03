@@ -1,0 +1,21 @@
+{
+    "Guest - Central Atom": 138,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+    ],
+    "HOMO-LUMO Gap": 0.12061831412418143,
+    "Reference": "Cotta Ramusino, M.; Rufini, L.; Mustazza, C. J. Inclusion Phenom. 1993, 15, 359.",
+    "Solvent": "Water",
+    "dG": -8.8
+}

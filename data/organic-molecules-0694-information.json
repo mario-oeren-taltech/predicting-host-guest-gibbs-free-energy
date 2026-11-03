@@ -1,0 +1,22 @@
+{
+    "Guest - Central Atom": 106,
+    "Guest - Vertex Atoms": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+    ],
+    "HOMO-LUMO Gap": 0.024982756870644454,
+    "Reference": "10.1007/s10847-009-9645-3",
+    "Solvent": "acetonitrile",
+    "dG": -17.6
+}

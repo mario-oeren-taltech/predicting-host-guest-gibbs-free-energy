@@ -1,0 +1,24 @@
+{
+    "Guest - Central Atom": 141,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+    ],
+    "HOMO-LUMO Gap": 0.331234593543616,
+    "Reference": "Barone, G.; Castronuovo, G.; Elia, V.; Muscetta, M. Thermochim. Acta 1985, 85, 443-446.",
+    "Solvent": "Water",
+    "dG": -8.3
+}

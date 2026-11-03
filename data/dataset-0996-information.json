@@ -1,0 +1,27 @@
+{
+    "Guest - Central Atom": 144,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+    ],
+    "HOMO-LUMO Gap": 0.09463585062544219,
+    "Reference": "Casu, B.; Rava, L. Ric. Sci. 1966, 36, 733.",
+    "Solvent": "Water",
+    "dG": -6.3
+}

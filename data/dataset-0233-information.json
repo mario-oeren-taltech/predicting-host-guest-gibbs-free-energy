@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 186,
+    "Guest - Vertex Atoms": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+    ],
+    "HOMO-LUMO Gap": 0.15783883430378398,
+    "Reference": "Kfoury M, Pipkin JD, Antle V, Fourmentin S (2017)  Captisol<s>\u00c2\u00ae</s>: anefficient carrier and solubilizing agent for essential oils andtheir components. Flavour Fragr J 32(5):340\u00e2\u20ac\u201c346. https://doi.org/10.1002/ffj.3395",
+    "Solvent": "Water",
+    "dG": -19.7
+}

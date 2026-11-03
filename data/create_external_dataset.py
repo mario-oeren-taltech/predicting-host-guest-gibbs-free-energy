@@ -11,9 +11,24 @@ from complexes.guest import Guest
 from molecular_structure.molecular_structure import make_list_of_atoms
 
 
-# Set up the ACSF descriptor.
-element_symbols = ['H', 'B', 'C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Br', 'Sb', 'I', 'Re']
+# Set up the descriptor parameters.
+element_symbols = [
+    'H',  'He', 'Li', 'Be', 'B',  'C',  'N',  'O',  'F',  'Ne',
+    'Na', 'Mg', 'Al', 'Si', 'P',  'S',  'Cl', 'Ar',
+    'K',  'Ca', 'Sc', 'Ti', 'V',  'Cr', 'Mn', 'Fe', 'Co', 'Ni',
+    'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr',
+    'Rb', 'Sr', 'Y',  'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd',
+    'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I',  'Xe',
+    'Cs', 'Ba',
+    'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy',
+    'Ho', 'Er', 'Tm', 'Yb', 'Lu',
+    'Hf', 'Ta', 'W',  'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg',
+    'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn'
+]
+
 r_cut = 15.0
+
+# Set up the ACSF descriptor.
 g2 = [[1, 1], [1, 2], [1, 3]]
 g4 = [[1, 1, 1], [1, 2, 1], [1, 1, -1], [1, 2, -1]]
 
@@ -23,8 +38,10 @@ acsf = ACSF(species=element_symbols, r_cut=r_cut, g2_params=g2, g4_params=g4)
 with open('anion-external-data.csv', 'w') as anion_data:
     pass
 
+interaction_radions_from_anions = 6
+
 # Go over every potential data point.
-for index in range(10):
+for index in range(200):
 
     try:
 
@@ -56,11 +73,11 @@ for index in range(10):
         else:
             raise RuntimeError('not dealing with spherical, tetrahedral, or octahedral anions!')
 
-        dipole_interactions = host_guest_complex.get_dipole_interactions(6.0)
-        non_polar_dipole_interactions = host_guest_complex.get_non_polar_dipole_interactions(6.0)
-        freely_rotating_dipole_interactions = host_guest_complex.get_freely_rotating_dipole_interactions(6.0)
-        freely_rotating_dipoles_interactions = host_guest_complex.get_freely_rotating_dipoles_interactions(6.0)
-
+        dipole_interactions = host_guest_complex.get_dipole_interactions(interaction_radions_from_anions)
+        non_polar_dipole_interactions = host_guest_complex.get_non_polar_dipole_interactions(interaction_radions_from_anions)
+        freely_rotating_dipole_interactions = host_guest_complex.get_freely_rotating_dipole_interactions(interaction_radions_from_anions)
+        freely_rotating_dipoles_interactions = host_guest_complex.get_freely_rotating_dipoles_interactions(interaction_radions_from_anions)
+        london_dispersion_force = 0
         # Get the ACSF descriptor.
         structure = read(os.path.join(os.getcwd(), f'anions-external-{index:03}-geometry.xyz'))
         acsf_descriptor = acsf.create(structure, centers=[central_atom])[0]
@@ -79,6 +96,7 @@ for index in range(10):
                     f'Non-polar Dipole Interactions,'
                     f'Freely rotating Dipole Interactions,'
                     f'Freely rotating Dipoles Interactions,'
+                    f'london_dispersion_force,'
                     f'Covalent Radius,'
                     f'{",".join(str(n) for n in range(number_descriptors))}'
                     '\n'
@@ -93,6 +111,7 @@ for index in range(10):
                 f'{non_polar_dipole_interactions},'
                 f'{freely_rotating_dipole_interactions},'
                 f'{freely_rotating_dipoles_interactions},'
+                f'{london_dispersion_force},'
                 f'{atoms[central_atom].covalent_radius},'
                 f'{acsf_descriptor}'
                 '\n'

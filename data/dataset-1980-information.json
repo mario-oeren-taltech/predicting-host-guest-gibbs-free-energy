@@ -1,0 +1,12 @@
+{
+    "Guest - Central Atom": 150,
+    "Guest - Vertex Atoms": [
+        147,
+        148,
+        149
+    ],
+    "HOMO-LUMO Gap": 0.15308461293332334,
+    "Reference": "J Am Chem Soc 124: 813-26 (2002)",
+    "Solvent": "Water",
+    "dG": -4.0
+}

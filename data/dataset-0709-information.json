@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 171,
+    "Guest - Vertex Atoms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+    ],
+    "HOMO-LUMO Gap": 0.09833659144047506,
+    "Reference": "Guo, Q.-X.; Zheng, X.-Q.; Ruan, X.-Q.; Luo, S.-H.; Liu, Y.-C J. Inclusion Phenom. Mol. Recognit. Chem. 1996, 26, 175-183.",
+    "Solvent": "Water",
+    "dG": -12.5
+}

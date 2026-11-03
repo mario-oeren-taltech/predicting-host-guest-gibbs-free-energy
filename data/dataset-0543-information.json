@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 150,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+    ],
+    "HOMO-LUMO Gap": 0.09301057607412618,
+    "Reference": "Mwakibete, H.; Bloor, D. M.; Wyn-Jones, E. J. Inclusion Phenom. Mol. Recognit. Chem. 1991, 10, 497-505.",
+    "Solvent": "Water",
+    "dG": -7.3
+}

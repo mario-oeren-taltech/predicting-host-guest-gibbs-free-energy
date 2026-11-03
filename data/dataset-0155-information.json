@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 150,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+    ],
+    "HOMO-LUMO Gap": 0.24538788345641527,
+    "Reference": "Hirsch, W.; Muller, T.; Pizer, R.; Ricatto, P. J. Can. J. Chem. 1995, 73, 12-15.",
+    "Solvent": "Water",
+    "dG": -15.1
+}

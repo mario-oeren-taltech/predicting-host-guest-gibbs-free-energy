@@ -130,5 +130,7 @@ print(
     f'ReO4-: {round(float(ext_results[2]), 1)} kJ per mol\n'
     f'ClO4-: {round(float(ext_results[3]), 1)} kJ per mol\n'
     f'I-:    {round(float(ext_results[5]), 1)} kJ per mol\n'
-    f'BF4-:  {round(float(ext_results[4]), 1)} kJ per mol'
+    f'BF4-:  {round(float(ext_results[4]), 1)} kJ per mol\n'
+    f'BU6(protonated):  {round(float(ext_results[6]), 1)} kJ per mol\n'
+    f'BU6(deprotonated):  {round(float(ext_results[7]), 1)} kJ per mol\n'
 )

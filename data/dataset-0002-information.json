@@ -1,0 +1,32 @@
+{
+    "Guest - Central Atom": 191,
+    "Guest - Vertex Atoms": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+    ],
+    "HOMO-LUMO Gap": 0.12365226030203222,
+    "Reference": "Kfoury M, Auezova L, Greige-Gerges H, Ruellan S, Fourmentin S(2014b) Cyclodextrin, an efficient tool for trans-anethole encap-sulation: chromatographic, spectroscopic, thermal and structuralstudies.  Food  Chem  164:454\u00e2\u20ac\u201c461. https://doi.org/10.1016/j.foodchem.2014.05.052",
+    "Solvent": "Water",
+    "dG": -17.4
+}

@@ -1,0 +1,32 @@
+{
+    "Guest - Central Atom": 191,
+    "Guest - Vertex Atoms": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+    ],
+    "HOMO-LUMO Gap": 0.15102074890972975,
+    "Reference": "Jiang S, Li JN, Jiang ZT (2010) Inclusion reactions of \u00ce\u00b2-cyclodextrinand  its  derivatives  with  cinnamaldehyde  in  Cinnamomum loureirii essential oil. Eur Food Res Technol 230(4):543\u00e2\u20ac\u201c550.https://doi.org/10.1007/s00217-009-1192-z",
+    "Solvent": "Water",
+    "dG": -11.6
+}

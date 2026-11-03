@@ -1,0 +1,27 @@
+{
+    "Guest - Central Atom": 144,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+    ],
+    "HOMO-LUMO Gap": 0.04278323134465316,
+    "Reference": "Hall, E.S.; Ache, H.J. J. Phys. Chem. 1979, 83, 1805.",
+    "Solvent": "Water",
+    "dG": -8.3
+}

@@ -1,0 +1,29 @@
+{
+    "Guest - Central Atom": 188,
+    "Guest - Vertex Atoms": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+    ],
+    "HOMO-LUMO Gap": 0.03401790163662939,
+    "Reference": "Ueno, A.; Osa, T. J. Inclusion Phenom. 1984, 2, 555.",
+    "Solvent": "Water",
+    "dG": -11.1
+}

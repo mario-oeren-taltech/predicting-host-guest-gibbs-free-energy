@@ -1,0 +1,21 @@
+{
+    "Guest - Central Atom": 138,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+    ],
+    "HOMO-LUMO Gap": 0.13808167901001858,
+    "Reference": "Takuma, T.; Deguchi, T.; Sanemasa, I. Bull. Chem. Soc. Jpn. 1991, 64, 1979.",
+    "Solvent": "Water",
+    "dG": -17.1
+}

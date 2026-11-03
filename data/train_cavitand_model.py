@@ -43,34 +43,7 @@ for index, row in external_data.iterrows():
     EXT_DESCRIPTORS.append(row.iloc[2:])
     EXT_VALUES.append(row.iloc[1])
 
-# # Grid search.
-# rfr = RandomForestRegressor(random_state=42)
-#
-# # Define the hyperparameter grid (discrete values for each parameter)
-# param_grid = {
-#     'n_estimators': [100, 500, 1000, 5000],
-#     'max_depth': [None, 10, 20, 30, 100],
-#     'min_samples_split': [2, 5, 10, 40],
-#     'min_samples_leaf': [1, 2, 4, 20],
-#     'bootstrap': [True, False],
-#     'oob_score': [True, False]
-# }
-#
-# # Initialize GridSearchCV
-# grid_search = GridSearchCV(estimator=rfr, param_grid=param_grid, cv=3, n_jobs=1, verbose=2)
-#
-# # Fit the model with GridSearchCV
-# grid_search.fit(TRN_DESCRIPTORS, TRN_VALUES)
-#
-# # Print the best hyperparameters found
-# print("Best Hyperparameters:", grid_search.best_params_)
-#
-# # Predict on the test set using the best model
-# y_pred = grid_search.predict(VAL_DESCRIPTORS)
-#
-# # Evaluate the model performance (mean absolute error)
-# mae = mean_absolute_error(VAL_VALUES, y_pred)
-# print(f"Mean Absolute Error: {mae:.2f}")
+
 
 
 def train_model(trn_descriptors, trn_values, val_descriptors, val_values, set_name):

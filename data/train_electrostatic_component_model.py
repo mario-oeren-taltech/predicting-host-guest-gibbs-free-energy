@@ -28,14 +28,14 @@ from sklearn.model_selection import KFold
 
 
 # Load the CSV files as a Pandas dataframes.
-data = pandas.read_csv(os.path.join(os.getcwd(), 'anion-data.csv'))
+data = pandas.read_csv(os.path.join(os.getcwd(), 'full_dataset.csv'))
 
 # Compile the arrays for descriptors and values.
 DESCRIPTORS, VALUES = [], []
+# for index, row in data.iloc[0:247].iterrows():
+for index, row in data.iloc[0:].iterrows():
 
-for index, row in data.iterrows():
-
-    DESCRIPTORS.append(numpy.array([float(descriptor) for descriptor in row.iloc[2:6]]))
+    DESCRIPTORS.append(numpy.array([float(descriptor) for descriptor in row.iloc[2:8]]))
     VALUES.append(float(row.iloc[1]))
 
 DESCRIPTORS = numpy.array(DESCRIPTORS)
@@ -123,15 +123,19 @@ for train_index, test_index in validation_sets.split(DESCRIPTORS, VALUES):
         r2_scores[name].append(round(r2, 2))
         mae_scores[name].append(round(mae, 2))
 
+
+
 # Print r2 scores table
 print("R2:")
 for name in r2_scores:
-    print(f'{name}, {', '.join(map(str, r2_scores[name]))}')
+    print(f"{name}, {', '.join(map(str, r2_scores[name]))}")
 
 # Print MAE scores table
 print("\nMean Absolute Error (MAE):")
 for name in mae_scores:
-    print(f'{name}, {', '.join(map(str, mae_scores[name]))}')
+    print(f"{name}, {', '.join(map(str, mae_scores[name]))}")
+
+
 
 # As expected, the ensemble methods had the best performance with Random forest regressor having the highest average R2.
 for train_index, test_index in validation_sets.split(DESCRIPTORS, VALUES):
@@ -147,12 +151,15 @@ for train_index, test_index in validation_sets.split(DESCRIPTORS, VALUES):
 
     # Plot the descriptor importance.
     descriptor_importance = model.feature_importances_
+    # print(round(descriptor_importance[0], 2), round(descriptor_importance[1], 2), round(descriptor_importance[2], 2),
+    #       round(descriptor_importance[3], 2))
     print(round(descriptor_importance[0], 2), round(descriptor_importance[1], 2), round(descriptor_importance[2], 2),
-          round(descriptor_importance[3], 2))
-
+          round(descriptor_importance[3], 2),
+          round(descriptor_importance[4], 2),
+          round(descriptor_importance[5], 2))
     pyplot.figure(figsize=(10, 6))
     pyplot.barh(range(len(descriptor_importance)), descriptor_importance, align='center')
-    pyplot.yticks(range(len(descriptor_importance)), data.columns[2:6])
+    pyplot.yticks(range(len(descriptor_importance)), data.columns[2:8])
     pyplot.xlabel('Feature Importance')
     pyplot.ylabel('Feature')
     pyplot.title("Random Forest Feature Importance's")

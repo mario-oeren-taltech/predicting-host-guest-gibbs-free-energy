@@ -1,0 +1,15 @@
+{
+    "Guest - Central Atom": 153,
+    "Guest - Vertex Atoms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+    ],
+    "HOMO-LUMO Gap": 0.16086569760164857,
+    "Reference": "A.W. Lantz, S.M. Wetterer, D.W. Armstrong, Anal. Bioanal. Chem. 383 (2005) 160.",
+    "Solvent": "Water",
+    "dG": -1.3
+}

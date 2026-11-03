@@ -1,0 +1,29 @@
+{
+    "Guest - Central Atom": 146,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+    ],
+    "HOMO-LUMO Gap": 0.09183600852101827,
+    "Reference": "Castronuovo, G.; Elia, V.; Fessas, D.; Giordano, A.; Velleca, F. Carbohydr. Res. 1995, 272, 31-39.",
+    "Solvent": "Water",
+    "dG": -6.2
+}

@@ -1,0 +1,24 @@
+{
+    "Guest - Central Atom": 141,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+    ],
+    "HOMO-LUMO Gap": 0.33198306424954893,
+    "Reference": "Spencer, J. N.; DeGarmo, J.; Paul, I. M.; He, Q.; Ke, X.; Wu, Z.; Yoder, C. H.; Chen, S.; Mihalick, J. E. J. Solution Chem. 1995, 24, 601-609. Complexation Thermodynamics of Cyclodextrins",
+    "Solvent": "Water",
+    "dG": -10.2
+}

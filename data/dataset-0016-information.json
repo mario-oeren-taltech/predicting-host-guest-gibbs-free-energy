@@ -1,0 +1,26 @@
+{
+    "Guest - Central Atom": 143,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+    ],
+    "HOMO-LUMO Gap": 0.0926573080449159,
+    "Reference": "Lewis, E. A.; Hansen, L. D. J. Chem. Soc., Perkin Trans. 2 1973, 2081-2085.",
+    "Solvent": "Water",
+    "dG": -15.9
+}

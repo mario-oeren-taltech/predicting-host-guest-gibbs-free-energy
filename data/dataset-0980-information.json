@@ -1,0 +1,23 @@
+{
+    "Guest - Central Atom": 140,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+    ],
+    "HOMO-LUMO Gap": 0.09608928259486521,
+    "Reference": "Komiyama, M.; Bender, M.L. Bioorg. Chem. 1977, 6, 323.",
+    "Solvent": "Water",
+    "dG": -2.6
+}

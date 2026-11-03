@@ -1,0 +1,22 @@
+{
+    "Guest - Central Atom": 139,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138
+    ],
+    "HOMO-LUMO Gap": 0.09345210063451469,
+    "Reference": "Eftink, M. R.; Harrison, J. C. Bioorg. Chem. 1981, 10, 388-398.",
+    "Solvent": "Water",
+    "dG": -15.9
+}

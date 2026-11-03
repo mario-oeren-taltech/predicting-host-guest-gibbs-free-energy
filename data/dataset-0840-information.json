@@ -1,0 +1,28 @@
+{
+    "Guest - Central Atom": 145,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+    ],
+    "HOMO-LUMO Gap": 0.14876597177211312,
+    "Reference": "Matsui, Y.; Nishioka, T.; Fujita, T. Quantitative structure-reactivityanalysis of the inclusion mechanism by cyclodextrins. Topics Curr. Chem. 1985, 128, 61-89.",
+    "Solvent": "Water",
+    "dG": -12.2
+}

@@ -1,0 +1,18 @@
+{
+    "Guest - Central Atom": 135,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+    ],
+    "HOMO-LUMO Gap": 0.17229979441388962,
+    "Reference": "Rekharsky, M. V.; Nemykina, E. V.; Eliseev, A. V.; Yatsimirsky, A. K. Thermochim. Acta 1992, 202, 25-33.",
+    "Solvent": "Water",
+    "dG": -6.2
+}

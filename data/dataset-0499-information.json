@@ -1,0 +1,14 @@
+{
+    "Guest - Central Atom": 131,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130
+    ],
+    "HOMO-LUMO Gap": 0.24663529548905128,
+    "Reference": "Van Hooidonk, C.; Breebaart-Hansen, J. C. A. E. Recl. Trav. Chim. Pays-Bas 1971, 90, 680-686.",
+    "Solvent": "Water",
+    "dG": -4.3
+}

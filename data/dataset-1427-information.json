@@ -1,0 +1,13 @@
+{
+    "Guest - Central Atom": 130,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129
+    ],
+    "HOMO-LUMO Gap": 0.08695876947881068,
+    "Reference": "Hersey, A.; Robinson, B.H.; Kelly, H.C. J. Chem. Soc., Faraday Trans. 1 1986, 82, 1271.",
+    "Solvent": "Water",
+    "dG": -1.7
+}

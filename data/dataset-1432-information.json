@@ -1,0 +1,25 @@
+{
+    "Guest - Central Atom": 163,
+    "Guest - Vertex Atoms": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+    ],
+    "HOMO-LUMO Gap": 0.03819888090106308,
+    "Reference": "Granados, A.; de Rossi, R.H. J. Org. Chem. 1993, 58, 1771.",
+    "Solvent": "Water",
+    "dG": -10.1
+}

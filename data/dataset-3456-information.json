@@ -1,0 +1,31 @@
+{
+    "Guest - Central Atom": 232,
+    "Guest - Vertex Atoms": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+    ],
+    "HOMO-LUMO Gap": 0.14797805493185343,
+    "Reference": "Mizera, M.; Muratov, E.N.; Alves, V.M.; Tropsha, A.; Cielecka-Piontek, J. Computer-Aided Discovery of New Solubility-Enhancing Drug Delivery System. Biomolecules 2020, 10, 913. https://doi.org/10.3390/biom10060913",
+    "Solvent": "Water",
+    "dG": -14.6
+}

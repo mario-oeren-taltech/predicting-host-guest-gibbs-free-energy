@@ -1,0 +1,17 @@
+{
+    "Guest - Central Atom": 134,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+    ],
+    "HOMO-LUMO Gap": 0.14785529777423362,
+    "Reference": "Andrew W. Lantz, Michael A. Rodriguez, Sean M. Wetterer, Daniel W. Armstrong, Estimation of association constants between oral malodor components and various native and derivatized cyclodextrins, Analytica Chimica Acta, Volume 557, Issues 1\u00e2\u20ac\u201c2, 2006, Pages 184-190, ISSN 0003-2670, https://doi.org/10.1016/j.aca.2005.10.005.",
+    "Solvent": "Water",
+    "dG": -8.5
+}

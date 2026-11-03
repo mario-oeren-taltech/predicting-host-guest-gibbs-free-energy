@@ -1,0 +1,20 @@
+{
+    "Guest - Central Atom": 137,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+    ],
+    "HOMO-LUMO Gap": 0.03648421149353247,
+    "Reference": "Wong, A.B.; Lin, S.-F.; Connors, K.A. J. Pharm. Sci. 1983, 72, 388.",
+    "Solvent": "Water",
+    "dG": -9.7
+}

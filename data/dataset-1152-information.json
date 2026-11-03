@@ -1,0 +1,27 @@
+{
+    "Guest - Central Atom": 144,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+    ],
+    "HOMO-LUMO Gap": 0.3237034102730717,
+    "Reference": "Wishnia, A.; Lappi, S.J. J. Mol. Biol. 1974, 82, 77.",
+    "Solvent": "Water",
+    "dG": -15.0
+}

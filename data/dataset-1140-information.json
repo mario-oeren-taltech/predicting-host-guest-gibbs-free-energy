@@ -1,0 +1,24 @@
+{
+    "Guest - Central Atom": 141,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+    ],
+    "HOMO-LUMO Gap": 0.05988025638078535,
+    "Reference": "Pendergast, D.D.; Connors, K.A. Bioorg. Chem. 1985, 13, 150.",
+    "Solvent": "Water",
+    "dG": -5.0
+}

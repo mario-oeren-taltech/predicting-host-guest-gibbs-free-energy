@@ -1,0 +1,31 @@
+{
+    "Guest - Central Atom": 148,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
+    ],
+    "HOMO-LUMO Gap": 0.06472243867902741,
+    "Reference": "Himanen, J.-P.; Korpela, T. J. Inclusion Phenom. 1986, 4, 177.",
+    "Solvent": "Water",
+    "dG": -9.1
+}

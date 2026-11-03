@@ -1,0 +1,33 @@
+{
+    "Guest - Central Atom": 150,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+    ],
+    "HOMO-LUMO Gap": 0.061456168171998615,
+    "Reference": "Monti, S.; Flamigni, L.; Martelli, A.; Bortulus, P. J. Phys. Chem. 1988, 92, 4447.",
+    "Solvent": "Water",
+    "dG": -9.7
+}

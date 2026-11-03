@@ -1,0 +1,23 @@
+{
+    "Guest - Central Atom": 140,
+    "Guest - Vertex Atoms": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+    ],
+    "HOMO-LUMO Gap": 0.327874727097846,
+    "Reference": "Gelb, R. I.; Schwartz, L. M.; Radeods, M.; Edmonds, R. B.; Laufer, D. A. J. Am. Chem. Soc. 1982, 104, 6283-6288.",
+    "Solvent": "Water",
+    "dG": -3.7
+}

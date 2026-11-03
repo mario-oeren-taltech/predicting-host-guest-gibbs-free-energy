@@ -1,0 +1,17 @@
+{
+    "Guest - Central Atom": 256,
+    "Guest - Vertex Atoms": [
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+    ],
+    "HOMO-LUMO Gap": 0.12304434294070407,
+    "Reference": "10.1021/acs.orglett.3c03715",
+    "Solvent": "chloroform",
+    "dG": -29.4
+}
